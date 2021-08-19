@@ -17,7 +17,8 @@ app.post('/error_503', function (req, res) {
   res.sendStatus(503);
 });
 
-var server = app.listen(8080, function () {
+port = process.env.PORT || 8080;
+var server = app.listen(port, function () {
   var host = server.address().address;
   var port = server.address().port;
   console.log('REST API demo app listening at http://%s:%s', host, port);
