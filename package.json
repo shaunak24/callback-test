@@ -1,0 +1,23 @@
+{
+  "name": "callback-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaunak24/callback-test.git"
+  },
+  "author": "Shaunak Thakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaunak24/callback-test/issues"
+  },
+  "homepage": "https://github.com/shaunak24/callback-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
